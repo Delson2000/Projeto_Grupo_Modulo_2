@@ -69,7 +69,7 @@ WHERE ID IN (2, 7, 9);   -- selecionar os alunos para que irão mudar o status
 
 SELECT * FROM LogAtualizacaoStatus; -- ver tabela log
 
--- PERGUNTA EXTRA:Quais são os cursos em que os estudantes estão matriculados e que têm uma duração superior N meses de meses?
+-- PERGUNTA EXTRA:Quais são os cursos em que os estudantes estão matriculados e que têm uma duração superior a N meses?
 
 
 DROP FUNCTION IF EXISTS tempo_minimo_cursos;
